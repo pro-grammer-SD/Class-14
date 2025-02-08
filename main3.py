@@ -8,14 +8,8 @@ turtle.hideturtle()
 fan_of_carol_ma_am = True
 
 if fan_of_carol_ma_am: 
-    for i in range(10):
-        turtle.forward(i+i*3)
-        turtle.seth(90)
-        turtle.forward(i+i*3)
-        turtle.seth(180)
-        turtle.forward(i+i*3)
-        turtle.seth(270)
-        turtle.forward(i+i*3)
-        turtle.seth(0)
+    for i in range(50):
+        turtle.forward(i * 5)
+        turtle.left(90)
         
 turtle.done()
